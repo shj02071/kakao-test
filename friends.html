@@ -5,25 +5,30 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Friends - Kokoa Clone</title>
+    <style>
+body{
+  background-image: url('screenshots/whale.jpeg');
+}
+    </style>
   </head>
   <body>
     <div class="status-bar">
       <div class="status-bar__column">
-        <span>No Service</span>
+        <span>5G</span>
         <i class="fas fa-wifi"></i>
       </div>
       <div class="status-bar__column">
         <span>18:43</span>
       </div>
       <div class="status-bar__column">
-        <span>110%</span>
+        <span>100%</span>
         <i class="fas fa-battery-full fa-lg"></i>
         <i class="fas fa-bolt"></i>
       </div>
     </div>
 
     <header class="screen-header">
-      <h1 class="screen-header__title">Friends</h1>
+      <h1 class="screen-header__title">친구</h1>
       <div class="screen-header__icons">
         <span><i class="fas fa-search fa-lg"></i></span>
         <span><i class="fas fa-music fa-lg"></i></span>
@@ -40,11 +45,11 @@
       <div class="user-component">
         <div class="user-component__column">
           <img
-            src="https://avatars3.githubusercontent.com/u/3612017"
+            src="screenshots/woo.png"
             class="user-component__avatar user-component__avatar--xl"
           />
           <div class="user-component__text">
-            <h4 class="user-component__title">Nicolas</h4>
+            <h4 class="user-component__title">우영우</h4>
             <!-- <h6 class="user-component__subtitle">this text whatever</h6> -->
           </div>
         </div>
@@ -52,18 +57,18 @@
       </div>
       <div class="friends-screen__channel">
         <div class="friends-screen__channel-header">
-          <span>Channel</span>
+          <span>채널</span>
           <i class="fas fa-chevron-up fa-xs"></i>
         </div>
         <div class="user-component">
           <div class="user-component__column">
             <img
-              src="https://avatars3.githubusercontent.com/u/3612017"
+              src="screenshots/channel.png"
               class="user-component__avatar user-component__avatar--sm"
             />
             <div class="user-component__text">
               <h4 class="user-component__title user-component__title--not-bold">
-                Channel
+                채널
               </h4>
             </div>
           </div>
@@ -75,6 +80,79 @@
           </div>
         </div>
       </div>
+      <br>
+      <hr>
+      <div class="friends-screen__channel2">
+        <div class="friends-screen__channel-header">
+          <span>친구 2</span>
+          <i class="fas fa-chevron-up fa-xs"></i>
+        </div>
+<!--이준호-->
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="screenshots/jun.png"
+              class="user-component__avatar user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title ">
+                이준호
+              </h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div>
+              <span></span>
+              <i class="fas fa-chevron-right fa-xs"></i>
+            </div>
+          </div>
+        </div>
+        <br>
+        <!--동그라미-->
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="screenshots/dong.png"
+              class="user-component__avatar user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title ">
+                동그라미
+              </h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div>
+              <span>동tothe그tothe라미  </span>
+              <i class="fas fa-chevron-right fa-xs"></i>
+            </div>
+          </div>
+        </div>
+        <br>
+<!--최수연-->
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="screenshots/suyeon.png"
+              class="user-component__avatar user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">
+                최수연
+              </h4>
+            </div>
+
+
+          </div>
+          <div class="user-component__column">
+            <div>
+              <span></span>
+              <i class="fas fa-chevron-right fa-xs"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </main>
 
     <nav class="nav">
@@ -86,7 +164,7 @@
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="chats.html">
-            <span class="nav__notification badge">1</span>
+            <span class="nav__notification badge">2</span>
             <i class="far fa-comment fa-2x"></i>
           </a>
         </li>
@@ -107,8 +185,9 @@
     </div>
 
     <div id="no-mobile">
-      <span>Your screen is too big 😭</span>
+      <span>화면의 크기를 줄여주세요</span>
     </div>
+
 
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"
